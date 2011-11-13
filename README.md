@@ -50,7 +50,7 @@ QuMailer defaults to a queue called `mailer`. You can change the name of the que
 
 ### Excluded Environments
 
-You may want to prevent QuMailer from sending out email in certain environments. By default QuMailer exludes the test environment. You may add an additional excluded environment using an initializer.
+You may want to prevent QuMailer from sending out email in certain environments. By default QuMailer exludes the test environment. You may add additional excluded environments using an initializer.
 
 `config/initializers/qu_mailer.rb`:
 
