@@ -10,8 +10,20 @@ Gem::Specification.new do |s|
   s.authors  = ['Philip Poots']
   s.email    = ['philip.poots@gmail.com']
 
-  s.files         = ['lib/qu_mailer.rb', 'spec/qu_mailer_spec.rb', 'init.rb', 'Gemfile', 'Gemfile.lock', 'README.md']
-  s.test_files    = ['spec'] 
+  s.files         = [
+    'lib/qu_mailer.rb', 
+    'spec/qu_mailer_spec.rb', 
+    'spec/spec_helper.rb', 
+    'init.rb', 
+    'Gemfile', 
+    'Gemfile.lock', 
+    'README.md',
+    'qu_mailer.gemspec'
+  ]
+  s.test_files    = [
+    'spec/spec_helper.rb',
+    'spec/qu_mailer_spec.rb'
+  ] 
   s.require_paths = ['lib']
 
   s.required_ruby_version = ::Gem::Requirement.new('~> 1.9')
