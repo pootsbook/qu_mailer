@@ -1,6 +1,6 @@
 # QuMailer
 
-QuMailer is a library for the asynchronous delivery of emails sent out by ActionMailer in Rails 3 applications. It is heavily inspired by ResqueMailer.
+QuMailer is a library for the asynchronous delivery of emails sent out by ActionMailer in Rails 3 applications. It is heavily inspired by [ResqueMailer](https://github.com/zapnap/resque_mailer).
 
 Email jobs created by QuMailer are processed by [Qu](https://github.com/bkeepers/qu), a Ruby library for queuing and processing background jobs.
 
