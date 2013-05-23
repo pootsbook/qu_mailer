@@ -2,6 +2,7 @@ Gem::Specification.new do |s|
   s.name     = 'qu_mailer'
   s.version  = '0.2.0'
   s.platform = Gem::Platform::RUBY
+  s.license  = 'MIT'
 
   s.summary     = 'Asynchronous email delivery for ActionMailer via Qu'
   s.description = 'QuMailer is a Rails plugin for delivering email asynchronously from ActionMailer via the Qu queuing library.'
