@@ -26,7 +26,7 @@ Gem::Specification.new do |s|
   ] 
   s.require_paths = ['lib']
 
-  s.required_ruby_version = ::Gem::Requirement.new('~> 1.9')
+  s.required_ruby_version = ::Gem::Requirement.new('> 1.9')
 
   s.add_dependency 'qu', '>= 0.1.3'
   s.add_dependency 'actionmailer', '>= 3.0.0'
